@@ -24,3 +24,34 @@ console.log(typeof heros)
 console.log(typeof id);
 
 //link for reading- https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive), Heap(Non-Primitive)
+let name="Krish"
+let anotherName=name
+console.log(anotherName)
+console.log(name)
+
+anotherName="Saheb"
+console.log(anotherName)
+console.log(name);
+
+
+
+let user1={
+    email:"krish@123",
+    upi:"85971235"
+}
+console.log(user1.email)
+
+let user2=user1
+user2.email="Saheb@123"
+console.log(user1.email)
+console.log(user2.email)
+
+
+
+
