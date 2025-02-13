@@ -61,3 +61,22 @@ let stringNumber=String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
 
+
+let str1="Hello"
+let str2="Krish"
+let str3=str1+str2
+console.log(str3)
+
+console.log("1"+2)
+console.log(1+"2");
+console.log(1+2+"2");
+console.log("1"+2+2);
+console.log(true)
+console.log(+true)
+console.log(+"")
+
+
+
+/*link to study
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+*/
