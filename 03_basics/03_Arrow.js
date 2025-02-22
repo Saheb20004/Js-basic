@@ -27,7 +27,20 @@ console.log(this)
 // }
 // two()
 
-const three=(num1,num2)=>{
+
+//Arrow function
+const addTwo=(num1,num2)=>{
     return num1+num2
 }
-console.log(three(3,4));
+console.log(addTwo(3,4));
+
+//implicit return
+const addTwo2=(num1,num2)=> (num1+num2)
+console.log(addTwo(10,21));
+
+const name=()=>({
+    username:"Krish"
+})
+console.log(name());
+
+
